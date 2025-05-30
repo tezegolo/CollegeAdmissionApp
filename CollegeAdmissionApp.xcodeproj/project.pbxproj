@@ -13,6 +13,10 @@
 		3B13AC6A2DE9267B00224CEF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B13AC692DE9267B00224CEF /* Base */; };
 		3B13AC6C2DE9267C00224CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B13AC6B2DE9267C00224CEF /* Assets.xcassets */; };
 		3B13AC6F2DE9267C00224CEF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B13AC6E2DE9267C00224CEF /* Base */; };
+		3BB600A02DE972AD00B20F15 /* FeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB6009F2DE9729A00B20F15 /* FeedbackController.swift */; };
+		3BB600A42DE972D200B20F15 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB600A32DE972C900B20F15 /* WelcomeController.swift */; };
+		3BB600A62DE972E600B20F15 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB600A52DE972DC00B20F15 /* RegistrationController.swift */; };
+		3BB600A82DE9731400B20F15 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB600A72DE9730600B20F15 /* ExploreController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3B13AC6B2DE9267C00224CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B13AC6E2DE9267C00224CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B13AC702DE9267C00224CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB6009F2DE9729A00B20F15 /* FeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackController.swift; sourceTree = "<group>"; };
+		3BB600A32DE972C900B20F15 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		3BB600A52DE972DC00B20F15 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		3BB600A72DE9730600B20F15 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		3B13AC612DE9267B00224CEF /* CollegeAdmissionApp */ = {
 			isa = PBXGroup;
 			children = (
+				3BB600A72DE9730600B20F15 /* ExploreController.swift */,
+				3BB600A52DE972DC00B20F15 /* RegistrationController.swift */,
+				3BB600A32DE972C900B20F15 /* WelcomeController.swift */,
+				3BB6009F2DE9729A00B20F15 /* FeedbackController.swift */,
 				3B13AC622DE9267B00224CEF /* AppDelegate.swift */,
 				3B13AC642DE9267B00224CEF /* SceneDelegate.swift */,
 				3B13AC662DE9267B00224CEF /* ViewController.swift */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB600A02DE972AD00B20F15 /* FeedbackController.swift in Sources */,
+				3BB600A42DE972D200B20F15 /* WelcomeController.swift in Sources */,
+				3BB600A82DE9731400B20F15 /* ExploreController.swift in Sources */,
 				3B13AC672DE9267B00224CEF /* ViewController.swift in Sources */,
 				3B13AC632DE9267B00224CEF /* AppDelegate.swift in Sources */,
+				3BB600A62DE972E600B20F15 /* RegistrationController.swift in Sources */,
 				3B13AC652DE9267B00224CEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
